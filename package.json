@@ -1,0 +1,25 @@
+{
+  "name": "project-api-mflix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express-async-handler": "^1.2.0",
+    "mongodb": "^6.13.0",
+    "bcrypt": "^5.1.1",
+    "config": "^3.3.12",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "joi": "^17.13.3",
+    "joi-password": "^4.2.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
