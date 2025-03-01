@@ -1,0 +1,23 @@
+{   
+    "morgan": {
+        "type": "common",
+        "stream": "console"
+    },
+    "accounting": {
+        "roles":["USER","ADMIN", "PREMIUM_USER"],
+        "user_role":"USER",
+        "premium_user_role": "PREMIUM_USER",
+        "admin_role": "ADMIN",
+        "salt_rounds": 10,
+        "expiredIn":"30d"
+    },
+    "validation": {
+        "min_movie_year": 1900,
+        "text_min_length": 4,
+        "max_amount": 56
+    },
+    "limitation": {
+        "user_sessions_count": 10,
+        "user_sessions_time": "15m" 
+    }
+}
